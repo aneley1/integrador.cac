@@ -1,0 +1,150 @@
+/* falta: arreglar color navbar active*/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* estilos para nav */
+.navbar {
+background-color: #343A40;
+font-size: larger;
+align-content: flex-end;
+}
+.navbar-brand {
+color: #ffffff;
+font-weight: 500;
+}
+.navbar-nav a {
+color: #8C9CA2;
+font-weight: 500;
+}
+
+/* estilos para carousel */
+
+.carousel, .carousel-item {
+z-index: -99;
+position: fixed;
+background-size: cover;
+}
+
+#cont-ppal {
+color: #ffffff;
+background-color: rgba(0, 0, 0, 0.4);
+height: 100%;
+text-align: right;
+padding: 10rem 4rem 8rem 12rem;
+}
+#cont-ppal p {
+display: inline-block;
+width: 50%;
+font-size: 105%;
+}
+.btn-success {
+background-color: #26AA43;
+border: none;
+}
+
+/* estilos para tarjetas */
+.divisor-titulos {
+background-color: #ffffff;
+text-align: center;
+padding: 0.5rem;
+font-size: 80%; 
+}
+h6 {
+font-size: 90%;
+}
+.card-group {
+background-color: #ffffff;
+padding: 0 12rem 2rem;
+}
+.card-group .btn {
+font-weight: bolder;
+}
+.card {
+margin: 1.5rem;
+}
+.card-text {
+font-size: 75%;
+line-height: 170%;
+}
+/* estilos para imagen inferior */
+#contenedor-inferior {
+display: flex;
+}
+#img-inf {
+flex: 1;
+box-sizing: border-box;
+border: none;
+margin: 0;
+padding: 1rem;
+width: auto;
+background-color: aqua;
+background-image: url("/imagenes/honolulu.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#texto-inf {
+flex: 1;
+box-sizing: border-box;
+border: none;
+margin: 0;
+padding: 1rem 0.2rem 12rem 1rem;
+width: auto;
+background-color: #353A40;
+}
+#texto-inf h3 {
+color: white;
+}
+#texto-inf p {
+color: white;
+font-size: 80%;
+}
+
+/* estilos para formulario  */
+.divisor-2 {
+padding-top: 1.5rem; 
+}
+form {
+width: 50%;
+margin: auto;
+padding-bottom: 1.5rem;
+}
+.form-control {
+margin: 0.5rem auto;
+}
+.form-label {
+color: #7a7a7a;
+font-size: 90%;
+}
+#contactar {
+background-color: white;
+}
+#contactar p {
+font-size: 90%;
+}
+.btn-other {
+background-color: #96C93E;
+color: white;
+border: none
+}
+
+/* estilos para foot  */
+
+#footer {
+background-color: #1D4962;
+padding:2rem auto;
+margin: 0 -0.5rem -0.5rem -0.5rem;
+}
+.list-group-horizontal-sm {
+margin: 0 auto;
+padding: 1.5rem 8rem;
+}
+.list-group-item {
+background-color: #1D4962;
+border: none;
+color: white;
+font-size: 110%;
+}
