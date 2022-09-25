@@ -81,7 +81,7 @@ margin: 0;
 padding: 1rem;
 width: auto;
 background-color: aqua;
-background-image: url("imagenes/honolulu.jpg");
+background-image: url('./imagenes/honolulu.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 }
